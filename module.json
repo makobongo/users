@@ -1,0 +1,18 @@
+{
+    "name": "Users",
+    "alias": "users",
+    "description": "The user module is responsible for managing users and permissions.",
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Ignite\\Users\\Providers\\UsersServiceProvider",
+        "Ignite\\Users\\Providers\\EventServiceProvider",
+        "Ignite\\Users\\Providers\\RouteServiceProvider",
+        "Ignite\\Users\\Providers\\ComposerServiceProvider"
+    ],
+    "files": [
+        "helpers.php",
+        "composers.php"
+    ],
+    "version": "v1.0.0"
+}

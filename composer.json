@@ -1,0 +1,15 @@
+{
+    "name": "acemed/users",
+    "description": "The user module is responsible for managing users and permissions.",
+    "type": "asgard-module",
+    "require": {
+        "php": ">=5.6.4",
+        "composer/installers": "~1.0",
+        "cartalyst/sentinel": "2.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ignite\\Users\\": ""
+        }
+    }
+}
